@@ -1,47 +1,157 @@
----
-title: Engine settings
----
+{
+    "CSGLevelOfDetailSwitchingDistanceL12": "0",
+    "CSGLevelOfDetailSwitchingDistanceL23": "0",
+    "CSGLevelOfDetailSwitchingDistanceL34": "0",
+    "CSGLevelOfDetailSwitchingDistance": "0",
 
-import { Badge } from '@astrojs/starlight/components';
+    "DebugLimitMinTextureResolutionWhenSkipMips": "9999999999999999",
+    "DebugForceFSMCPULightCulling": "True",
+    "DebugTextureManagerSkipMips": "10",
+    "DebugDisplayFPS": "True",
+    "DebugSkyGray": "True",
 
-Bloxstrap allows you to tweak specific parameters of the Roblox game engine that you normally cannot change, which it does through the [Fast Flag system](#fast-flags).
+    "DFFlagDebugEnableInterpolationVisualizer": "true",
+    "DFFlagDebugRenderForceTechnologyVoxel": "True",
+    "DFFlagTextureQualityOverrideEnabled": "True",
+    "DFFlagESGamePerfMonitorEnabled": "False",
+    "DFFlagDebugPauseVoxelizer": "True",
+    "DFFlagDisableDPIScale": "True",
+    "DFFlagDebugPerfMode": "True",
 
-## Presets
+    "DFIntAnimationLodFacsVisibilityDenominator": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL34": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL23": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
+    "DFIntUserIdPlayerNameLifetimeSeconds": "86400",
+    "DFIntCSGLevelOfDetailSwitchingDistance": "0",
+    "DFIntDebugTextureManagerSkipMips": "10",
+    "DFIntDebugFRMQualityLevelOverride": "1",
+    "DFIntAnimationLodFacsDistanceMax": "0",
+    "DFIntAnimationLodFacsDistanceMin": "0",
+    "DFIntTextureCompositorActiveJobs": "0",
+    "DFIntTaskSchedulerTargetFps": "9999",
+    "DFIntCanHideGuiGroupId": "32380007",
+    "DFIntTextureQualityOverride": "0",
 
-Not all presets are listed here, just ones that may need more info for the user.
+    "DisablePostFx": "True",
 
-### Exclusive fullscreen
+    "DoNotSkipMipsBasedOnSystemMemoryPS": "True",
 
-This is always enabled it by default. Normally, Roblox fullscreens in borderless windowed mode. With Bloxstrap, you can use Alt+Enter to enter true fullscreen mode.
+    "EnablePowerTraceModule": "True",
 
-Using this might give a small performance boost, since Roblox gets full control of your screen instead of just being a window.
+    "FFlagEnableAccessibilitySettingsEffectsInExperienceChat": "true",
+    "FFlagEnableAccessibilitySettingsEffectsInCoreScripts2": "true",
+    "FFlagEnableAccessibilitySettingsInExperienceMenu2": "true",
+    "FFlagGraphicsGLEnableSuperHQShadersExclusion": "False",
+    "FFlagDebugDisableTelemetryEphemeralCounter": "True",
+    "FFlagGraphicsGLEnableHQShadersExclusion": "False",
+    "FFlagGraphicsSettingsOnlyShowValidModes": "True",
+    "FFlagEnableReportAbuseMenuRoactABTest2": "False",
+    "FFlagDebugDisableTelemetryEphemeralStat": "True",
+    "FFlagHandleAltEnterFullscreenManually": "False",
+    "FFlagUserPreventOldBubbleChatOverlap": "False",
+    "FFlagEnableBubbleChatFromChatService": "False",
+    "FFlagEnableBubbleChatConfigurationV2": "False",
+    "FFlagEnableAccessibilitySettingsAPIV2": "true",
+    "FFlagDebugDisableTelemetryEventIngest": "True",
+    "FFlagBetaBadgeLearnMoreLinkFormview": "false",
+    "FFlagEnableReportAbuseMenuLayerOnV3": "false",
+    "FFlagEnableMenuModernizationABTest2": "False",
+    "FFlagInGameMenuV1FullScreenTitleBar": "False",
+    "FFlagChatTranslationSettingEnabled3": "false",
+    "FFlagEnableInGameMenuModernization": "False",
+    "FFlagEnableInGameMenuChromeABTest2": "False",
+    "FFlagEnableMenuModernizationABTest": "False",
+    "FFlagDebugDisableOTAMaterialTexture": "true",
+    "FFlagDebugDisableTelemetryV2Counter": "True",
+    "FFlagDisableChromeFollowupOcclusion": "True",
+    "FFlagEnableReportAbuseMenuRoact2": "false",
+    "FFlagDebugDisableTelemetryV2Event": "True",
+    "FFlagDebugForceFSMCPULightCulling": "True",
+    "FFlagRenderPerformanceTelemetry": "False",
+    "FFlagCoreGuiTypeSelfViewPresent": "False",
+    "FFlagDisableChromeFollowupUnibar": "True",
+    "FFlagDebugDisableTelemetryV2Stat": "True",
+    "FFlagCommitToGraphicsQualityFix": "True",
+    "FFlagPreloadTextureItemsOption4": "True",
+    "FFlagRenderGpuTextureCompressor": "True",
+    "FFlagEnableFavoriteButtonForUgc": "true",
+    "FFlagDebugDisableTelemetryPoint": "True",
+    "FFlagEnableBetaBadgeLearnMore": "false",
+    "FFlagEnableInGameMenuControls": "False",
+    "FFlagEnableMenuControlsABTest": "False",
+    "FFlagControlBetaBadgeWithGuac": "false",
+    "FFlagDisableChromeFollowupFTUX": "True",
+    "FFlagNullCheckCloudsRendering": "True",
+    "FFlagEnableNewInviteMenuIXP2": "False",
+    "FFlagEnableAudioOutputDevice": "false",
+    "FFlagDisableChromeDefaultOpen": "True",
+    "FFlagDebugGraphicsPreferD3D11": "True",
+    "FFlagLightgridCPUAsyncUpdate": "True",
+    "FFlagDisableChromePinnedChat": "True",
+    "FFlagEnableQuickGameLaunch": "False",
+    "FFlagCloudsReflectOnWater": "False",
+    "FFlagEnableV3MenuABTest3": "False",
+    "FFlagFastGPULightCulling3": "True",
+    "FFlagRenderCheckThreading": "True",
+    "FFlagGlobalWindRendering": "false",
+    "FFlagPreloadMinimalFonts": "True",
+    "FFlagDisableChromeUnibar": "True",
+    "FFlagNewLightAttenuation": "True",
+    "FFlagTopBarUseNewBadge": "false",
+    "FFlagFixGraphicsQuality": "True",
+    "FFlagDontCreatePingJob": "True",
+    "FFlagAdServiceEnabled": "False",
+    "FFlagLuaAppSystemBar": "False",
+    "FFlagPreloadAllFonts": "True",
+    "FFlagVoiceBetaBadge": "false",
+    "FFlagDisablePostFx": "True",
+    "FFlagMSRefactor5": "False",
 
-:::caution[Using this comes with some downsides!]
-- You cannot see server location notifications from Bloxstrap
-- Popout windows in the Roblox app will not work (for browsing servers and badges, etc)
-- You may encounter GPU quirks (VSync, weird resolutions, mouse cursor not showing)
+    "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
+    "FIntMeshContentProviderForceCacheSize": "268435456",
+    "FIntHSRClusterSymmetryDistancePercent": "10000",
+    "FIntRenderLocalLightFadeInMs_enabled": "99999",
+    "FIntStartupInfluxHundredthsPercentage": "0",
+    "FIntUITextureMaxRenderTextureSize": "1024",
+    "FIntTerrainOTAMaxTextureSize": "1024",
+    "FIntDebugTextureManagerSkipMips": "3",
+    "FIntRenderLocalLightUpdatesMin": "1",
+    "FIntRenderLocalLightUpdatesMax": "1",
+    "FIntCameraMaxZoomDistance": "99999",
+    "FIntDefaultMeshCacheSizeMB": "256",
+    "FIntRenderGrassDetailStrands": "0",
+    "FIntReportDeviceInfoRollout": "0",
+    "FIntRenderGrassHeightScaler": "0",
+    "FIntRobloxGuiBlurIntensity": "0",
+    "FIntTerrainArraySliceSize": "8",
+    "FIntRenderShadowIntensity": "0",
+    "FIntDebugForceMSAASamples": "0",
+    "FIntRenderShadowmapBias": "0",
+    "FIntFRMMaxGrassDistance": "0",
+    "FIntFRMMinGrassDistance": "0",
+    "FIntFontSizePadding": "1",
 
-To avoid all this, just fullscreen normally without using Alt+Enter.
-:::
+    "FLogNetwork": "7",
+    "FStringVoiceBetaBadgeLearnMoreLink": "null",
+    "FStringTerrainMaterialTablePre2022": "",
+    "FStringTerrainMaterialTable2022": "",
 
-### Preserving rendering quality
+    "IncludePowerSaverMode": "True",
 
-If your Windows display scaling is greater than 100%, then Roblox will decrease its rendering resolution. Enabling this will prevent that from happening.
+    "PerformanceControlTextureQualityBestUtility": "-1",
 
-| Before | After |
-| ------ | ----- |
-| [![Image showing before option is enabled, showing noticeably worse quality](/assets/wiki/fflag-dpi-before.jpg)](/assets/wiki/fflag-dpi-before.jpg) | [![Image showing after option is enabled, showing noticeably better quality](/assets/wiki/fflag-dpi-after.jpg)](/assets/wiki/fflag-dpi-after.jpg) |
+    "RenderUseTextureManager224": "False",
+    "RenderShadowmapBias": "75",
 
-<Badge text="Click image to enlarge" variant="tip" />
+    "TaskSchedulerLimitTargetFpsTo2402": "False",
+    "TaskSchedulerTargetFps": "9999999",
 
-## Fast Flags
+    "TerrainArraySliceSize": "0",
 
-The Engine Settings options work by using Roblox's Fast Flag system. 
+    "TextureQualityOverrideEnabled": "True",
+    "TextureCompositorActiveJobs": "0",
+    "TextureQualityOverride": "0",
 
-It's a system for Roblox engineers to dynamically modify the game engine without needing to push a full update, typically for [A/B testing](https://en.wikipedia.org/wiki/A/B_testing) or for feature rollouts. All Fast Flags and their behaviour are defined by Roblox engineers.
-
-Roblox loads a huge list of them online when it starts up. However, they can be locally overriden too, and that's what Bloxstrap is doing. 
-
-Realistically, this is only intended to be used by Roblox engineers for local testing. However, we think it can present some really useful functions in some cases, especially in some places where we think Roblox falls short in (like advanced graphics options), so we have them here.
-
-Since September 30th 2025, Roblox has selectively whitelisted what Fast Flags can be applied to the client [(Devforum announcement)](https://devforum.roblox.com/t/allowlist-for-local-client-configuration-via-fast-flags/3966569). Many of Bloxstrap's options (the Fast Flag editor and many presets) have been removed.
+    "TM2SkipMipsForUnstreamable2": "True"
+}
